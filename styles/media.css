@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+    nav{
+        padding: 5%;
+    }
+    .icons{
+        display: inline-flex;
+        padding-right: 20px;
+    }
+    .navbar-container{
+        display: none;
+    }
+}
