@@ -118,4 +118,16 @@
     margin-left: 20px;
     width: 100%;
  }
+ .fourth-section{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+ }
+ .fourth-section>div{
+    width: 100%;
+    margin-bottom: 20px;
+ }
+ .discount-badge{
+    top: 170px;
+ }
 }
