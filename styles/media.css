@@ -63,7 +63,8 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(1,1fr);
-    gap:10px;
+    gap:20px;
+    margin-left: 30px;
 }
    .img-1{
     grid-column: 1/span 1;
@@ -92,5 +93,29 @@
  .img-7{
     grid-column: 1/span 1;
     grid-row: 7/ span 1;
+ }
+ .pic-title-3,.pic-title-5,.pic-title-6{
+    right: 220px;
+ }
+ .pic-title-5{
+    top:290px;
+ }
+ .pic-title-7{
+    top: 120px;
+    right: 220px;
+ }
+ .card-container{
+    flex-direction: column;
+    margin-left: 20px;
+    width: 100%;
+    margin-right: 0px;
+ }
+ .card-1,.card-2{
+    width: 100%;
+    margin-bottom: 20px;
+ }
+ .card-3{
+    margin-left: 20px;
+    width: 100%;
  }
 }
